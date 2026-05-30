@@ -2859,27 +2859,11 @@ button:disabled,
 }
 
 .tiles article.style1 > .image:before {
-  background-color: #cbcbcb;
+  background-color: #c6dadca6;
 }
 
 .tiles article.style2 > .image:before {
-  background-color: #aaaaaa;
-}
-
-.tiles article.style3 > .image:before {
-  background-color: #7bd0c1;
-}
-
-.tiles article.style4 > .image:before {
-  background-color: #c75b9b;
-}
-
-.tiles article.style5 > .image:before {
-  background-color: #ae85ca;
-}
-
-.tiles article.style6 > .image:before {
-  background-color: #8499e7;
+  background-color: #aebcc38f;
 }
 
 body:not(.is-touch) .tiles article:hover > .image {
@@ -3475,4 +3459,22 @@ body.is-menu-visible #menu .close {
   #wrapper > * > .inner {
     padding: 0 1.25em;
   }
+}
+
+.follow-section {
+  width: 100%;
+  text-align: center;
+}
+
+.follow-section .icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#footer .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
