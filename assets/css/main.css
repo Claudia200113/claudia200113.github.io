@@ -2815,9 +2815,9 @@ button:disabled,
   height: 100%;
   padding: 1em;
   border-radius: 4px;
-  font-size: 32px;
+  font-size: 48px;
   border-bottom: 0;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   text-decoration: none;
   z-index: 3;
