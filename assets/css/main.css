@@ -2815,6 +2815,7 @@ button:disabled,
   height: 100%;
   padding: 1em;
   border-radius: 4px;
+  font-size: 32px;
   border-bottom: 0;
   color: #000000;
   text-align: center;
