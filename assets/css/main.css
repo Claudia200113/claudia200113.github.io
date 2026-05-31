@@ -2815,9 +2815,9 @@ button:disabled,
   height: 100%;
   padding: 1em;
   border-radius: 4px;
-  font-size: 48px;
+  font-size: 32px;
   border-bottom: 0;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   text-decoration: none;
   z-index: 3;
@@ -2860,11 +2860,11 @@ button:disabled,
 }
 
 .tiles article.style1 > .image:before {
-  background-color: #c6dadca6;
+  background-color: #c6dadcd5;
 }
 
 .tiles article.style2 > .image:before {
-  background-color: #aebcc38f;
+  background-color: #aebcc3d1;
 }
 
 body:not(.is-touch) .tiles article:hover > .image {
