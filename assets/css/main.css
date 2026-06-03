@@ -2819,7 +2819,7 @@ button:disabled,
   border-radius: 4px;
   font-size: 28px;
   border-bottom: 0;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   text-decoration: none;
   z-index: 3;
@@ -2834,7 +2834,6 @@ button:disabled,
 }
 
 .tiles article > a h2 {
-  color: #000000;
   margin: 0;
 }
 
