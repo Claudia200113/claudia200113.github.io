@@ -308,7 +308,7 @@ h6 {
   margin: 0 0 2em 0;
   text-transform: uppercase;
   letter-spacing: 0.35em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 
 h2 a,
@@ -2862,11 +2862,11 @@ button:disabled,
 }
 
 .tiles article.style1 > .image:before {
-  background-color: #c6dadcd5;
+  background-color: #6c7070c8;
 }
 
 .tiles article.style2 > .image:before {
-  background-color: #aebcc3d1;
+  background-color: #6f7273b2;
 }
 
 body:not(.is-touch) .tiles article:hover > .image {
