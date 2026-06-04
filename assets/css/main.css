@@ -2862,11 +2862,11 @@ button:disabled,
 }
 
 .tiles article.style1 > .image:before {
-  background-color: #6c7070c8;
+  background-color: #6c7070e0;
 }
 
 .tiles article.style2 > .image:before {
-  background-color: #6f7273b2;
+  background-color: #5c5e5fb2;
 }
 
 body:not(.is-touch) .tiles article:hover > .image {
