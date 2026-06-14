@@ -3481,3 +3481,9 @@ body.is-menu-visible #menu .close {
   flex-direction: column;
   align-items: center;
 }
+
+/* Personalized classes */
+.project-image {
+  width: 50%;
+  max-width: 500px;
+}
