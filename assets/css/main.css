@@ -3485,7 +3485,7 @@ body.is-menu-visible #menu .close {
 /* Personalized classes */
 .project-image {
   display: block;
-  text-align: center;
   width: 50%;
   max-width: 500px;
+  margin: 0 auto;
 }
