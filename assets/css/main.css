@@ -3512,5 +3512,6 @@ p {
 
 .image-column img {
   width: 48%;
+  margin-bottom: 3em;
   height: auto;
 }
