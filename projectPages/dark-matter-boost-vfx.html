@@ -39,52 +39,84 @@
       </header>
 
       <!-- Menu -->
+      <!-- CHANGE -->
       <nav id="menu">
         <h2>Menu</h2>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="generic.html">Ipsum veroeros</a></li>
-          <li><a href="generic.html">Tempus etiam</a></li>
-          <li><a href="generic.html">Consequat dolor</a></li>
-          <li><a href="elements.html">Elements</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="generic.html">Unreal VFX</a></li>
+          <li><a href="generic.html">Unreal Tools</a></li>
+          <li><a href="generic.html">Programming</a></li>
+          <li><a href="elements.html">Others</a></li>
         </ul>
       </nav>
 
       <!-- Main -->
       <div id="main">
         <div class="inner">
-          <h1>Dark Matter Boost VFX</h1>
-          <span class="image main"
-            ><img src="../images/pic13.jpg" alt=""
-          /></span>
+          <h1>Contrail VFX</h1>
+          <span class="image main">
+            <video controls style="width: 75%; display: block; margin: 0 auto">
+              <source
+                src="../media/contrailPortal/StillHor.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </span>
+
+          <p>A fan made version of Rocket League's Dark Matter Boost</p>
+
           <h2>Overview</h2>
+
           <p>
-            I created a tool focused on helping populate environments
-            procedurally inside Unreal. This tool lets you generate candles in
-            either a linear or circular arrangement, with support for perfect
-            circles or a custom offset to create more organic layouts. Each
-            candle can also spawn a Niagara system, giving it a realistic look.
+            For this project I decided to learn and work with ribbons and found
+            one of the best examplres are Rocket League boost so I decided to
+            try doing my own version of one. I choose the Dark Matter boost
+            since at first galnce I did not knew how to work arround the
+            lighting-type ribbon and the main black one. I wanted to choose a
+            challenging effect which would make me learn new concepts, as well
+            as being a challenge to reproduce Rocket League style and high
+            quality bar.
           </p>
-          <h2>Objective</h2>
+
+          <h2>Techincal Features</h2>
+
           <p>
-            I wanted to create a tool to populate scenes easily. I designed the
-            tool to be modular, so both the mesh and Niagara used can be easily
-            changed on the tool detail by the user.
+            One of my objectives while developing the project was working on the
+            optimization of it. I set multiple emitters in each system. This
+            allows to reduce the cost of rendering process and calculations as
+            they are run only once when shared.
           </p>
-          <h2>Features</h2>
-          <p>
-            I wanted to create a tool to populate scenes easily. I designed the
-            tool to be modular, so both the mesh and Niagara used can be easily
-            changed on the tool detail by the user.
-          </p>
-          <h2>Media</h2>
+
+          <div class="image-column">
+            <img src="../media/contrailPortal/SixEmitters.jpg" alt="" />
+            <img src="../media/contrailPortal/ThreeEmitters.jpg" alt="" />
+          </div>
+
+          <span class="image main">
+            <video controls width="100%">
+              <source
+                src="../media/contrailPortal/Comparison.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </span>
+
+          <span class="image main"
+            ><img
+              class="project-image"
+              src="../media/darkMatterBoost/Thumb_DarkMatterBoost.jpg"
+              alt=""
+          /></span>
         </div>
       </div>
 
       <!-- Footer -->
       <footer id="footer">
         <div class="inner">
-          <h2>Follow me or contact me!</h2>
+          <h2>Follow me!</h2>
           <ul class="icons">
             <li>
               <a
