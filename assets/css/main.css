@@ -3515,11 +3515,3 @@ p {
   margin-bottom: 3em;
   height: auto;
 }
-
-.project-video {
-  width: 50%;
-  max-width: 800px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
