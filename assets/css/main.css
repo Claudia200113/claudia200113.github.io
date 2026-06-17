@@ -3504,3 +3504,13 @@ body.is-menu-visible #menu .close {
 p {
   font-weight: 500;
 }
+
+.image-column {
+  display: flex;
+  gap: 1rem;
+}
+
+.image-column img {
+  width: 48%;
+  height: auto;
+}
