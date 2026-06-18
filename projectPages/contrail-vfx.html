@@ -68,13 +68,24 @@
           <p>A fan made version of Fortnite's: Portal Particles</p>
 
           <h2>Overview</h2>
+
           <p>
-            This time I decided to take an exisiting effect from one of the most
-            popular games, Fortnite. I decided to do this because not only it is
-            a challenge to copy an exisitng effect and achieve the closes result
-            posible, but I designed the effect as if it were to be used on the
-            actual game. That is why I not only focused on the visuals of it,
-            but focused on a clean and optimized implementation of it.
+            For this effect I decided to take an exisiting effect from one of
+            the most popular games, Fortnite. I opted to try doing this because
+            it not only is a challenge to copy an exisitng effect and achieve
+            the closes result posible, but I designed the effect as if it were
+            to be used on the actual game. I focused on trying to achiving the
+            quality bar of the effect, keeping the Niagara system clean and
+            readable, and most importantly optimizainf the system as much as
+            possible by merging emitters and reducing it to a maximum of three
+            emmitters.
+          </p>
+
+          <p>
+            One of the trickiest parts of the effect was copying the behaviour
+            of the dots. As each one has its own behaviour it was tricky being
+            able to reproduce each one of them and keeping a clear distintions
+            between is group of dots.
           </p>
 
           <h2>Techincal Features</h2>
@@ -85,6 +96,7 @@
             allows to reduce the cost of rendering process and calculations as
             they are run only once when shared.
           </p>
+
           <p>
             In the first draft of the effect, six emitters were created, but
             using spawning groups, arrays, and custom binding I was able to
