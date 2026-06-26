@@ -2480,16 +2480,6 @@ input[type="radio"] + label:before {
   }
 }
 
-.name {
-  color: #ecbe2a;
-  font-size: 3em;
-  margin-bottom: 0em;
-}
-
-.role {
-  color: #f0aa47;
-}
-
 /* Table */
 
 .table-wrapper {
@@ -3514,4 +3504,15 @@ p {
   width: 49%;
   margin-bottom: 3em;
   height: auto;
+}
+
+.name {
+  color: #ecbe2a;
+  font-size: 3em;
+  margin-bottom: 0em;
+}
+
+.role {
+  color: #f0aa47;
+  margin-bottom: 2em;
 }
