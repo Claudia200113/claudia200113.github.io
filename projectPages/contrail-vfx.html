@@ -70,27 +70,26 @@
           <h2>Overview</h2>
 
           <p>
-            This effect is a fan-made recreation of Fortnite's Portal Particles
-            effect. The goal of the project was to analyze an existing AAA
-            visual effect and reproduce it as accurately as possible.
+            This time I decided to do a fan-made recreation of Fortnite's Portal
+            Particles effect. My goal was to analyze an existing AAA FX and
+            reproduce it as accurately as possible.
           </p>
 
           <p>
-            I chose this effect because it presents an interesting challenge
+            I chose this effect because it presented an interesting challenge
             from both a technical and artistic point of view. Beyond recreating
-            the visuals, I approached the project as if it were being used on
-            the actual game. This meant focusing not only on visual fidelity,
-            but also on readability, organization, and optimization within the
+            the visuals, I approached the effect as if it was being used on the
+            actual game. This meant focusing not only on visual fidelity, but
+            also on readability, organization, and optimization within the
             Niagara system.
           </p>
 
           <p>
-            One of the most challenging aspects of the recreation was
-            reproducing the behavior of the particle dots. Although they appear
-            simple at first sight, each group follows unique movement patterns
-            and timing variations. Replicating these subtle differences while
-            maintaining the overall look and feel of the original effect was a
-            challenge.
+            One of the most challenging aspects of the project was reproducing
+            the behavior of the particle dots. Although they appear simple at
+            first sight, each group follows unique movement patterns and timing
+            variations. Replicating these subtle differences while maintaining
+            the overall look and feel of the original effect was a challenge.
           </p>
 
           <h2>Techincal Features</h2>
@@ -102,31 +101,23 @@
           </p>
 
           <p>
-            In the first draft of the effect, six emitters were created, but
-            using spawning groups, arrays, and custom binding I was able to
-            reduce the number to only three. Two for each ribbon (blue and pink)
-            and another one which handles all the dots.
-          </p>
-
-          <p>
-            The final version of the effect uses only three emitters: two ribbon
-            emitters responsible for the blue and pink energy trails, and a
-            single particle emitter that manages all dot variations. This
-            significantly reduced system complexity while improving
-            maintainability and runtime performance. I was able to achieve this
-            by using spawn groups, arrays, custom bindings, and shared logic.
-          </p>
-
-          <p>
-            The result (which if I may say, I am very proud off!) is an effect
-            that matches the visual quality and motion of the original Fortnite
-            effect, while adhering to complex optimization practices.
+            After using spawning groups, arrays, and custom binding I was able
+            to reduce the number to only three. Two for each ribbon (blue and
+            pink) and another one which handles all the dots. This significantly
+            reduced system complexity while improving maintainability and
+            runtime performance.
           </p>
 
           <div class="image-column">
             <img src="../media/contrailPortal/SixEmitters.jpg" alt="" />
             <img src="../media/contrailPortal/ThreeEmitters.jpg" alt="" />
           </div>
+
+          <p>
+            The result (which if I may say, I am very proud of!) is an effect
+            that matches the visual quality and motion of the original Fortnite
+            effect, while adhering to complex optimization practices.
+          </p>
 
           <span class="image main">
             <video controls width="100%">
