@@ -3516,3 +3516,8 @@ p {
   color: #f0aa47;
   margin-bottom: 0.5em;
 }
+
+.video-effect {
+  display: block;
+  margin: 0 em;
+}
