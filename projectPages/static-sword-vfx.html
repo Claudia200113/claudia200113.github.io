@@ -39,6 +39,7 @@
       </header>
 
       <!-- Menu -->
+      <!-- CHANGE -->
       <nav id="menu">
         <h2>Menu</h2>
         <ul>
@@ -53,38 +54,62 @@
       <!-- Main -->
       <div id="main">
         <div class="inner">
-          <h1>Sword VFX</h1>
-          <span class="image main"
-            ><img src="../images/pic13.jpg" alt=""
-          /></span>
+          <h1 style="color: rgb(253, 158, 16)">Sword VFX</h1>
+          <span class="image main">
+            <video controls style="width: 75%; display: block; margin: 0 auto">
+              <source
+                src="../media/staticSword/SwordRenderVideo.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </span>
+
+          <p>Environmental Effect For A Static Sword</p>
+
           <h2>Overview</h2>
+
           <p>
-            I created a tool focused on helping populate environments
-            procedurally inside Unreal. This tool lets you generate candles in
-            either a linear or circular arrangement, with support for perfect
-            circles or a custom offset to create more organic layouts. Each
-            candle can also spawn a Niagara system, giving it a realistic look.
+            As I browsed and explored more effects I realized that many of them
+            spawned particles around te meshes. As I did not know how to do that
+            I realized it was a great excercise to do a environmental static
+            sword where fire particles would spawn but only around the sword it
+            self. This project was great as I got to explore how to achieve this
+            and realized the best way was to use scratch pads.
           </p>
-          <h2>Objective</h2>
+
           <p>
-            I wanted to create a tool to populate scenes easily. I designed the
-            tool to be modular, so both the mesh and Niagara used can be easily
-            changed on the tool detail by the user.
+            As I had limited knowledge about scratch pads I had to research more
+            about the setup and how to avhieve the desired behaviour that was
+            spawning particles only on the outside of the sword. I was able to
+            use the nodes the calculate the triangles in the mesh, assign a
+            index for the triangles and then using a limitted amount, spawn
+            particles on the location of the triangles. This was a great
+            excercise as I got to see how powerfull scratch pads are and the
+            different behaviours you can achieve.
           </p>
-          <h2>Features</h2>
+
           <p>
-            I wanted to create a tool to populate scenes easily. I designed the
-            tool to be modular, so both the mesh and Niagara used can be easily
-            changed on the tool detail by the user.
+            Later I added more particles such as the sparks, distortion and
+            added marks to the ground using paralax occlusion to give an
+            interesting feeling of depth and distorion on the ground. I achieved
+            to give the sword a powerfull look eventhough it is static on the
+            floor.
           </p>
-          <h2>Media</h2>
+
+          <span class="image main"
+            ><img
+              class="project-image"
+              src="../media/staticSword/Thumb_Sword.jpg"
+              alt=""
+          /></span>
         </div>
       </div>
 
       <!-- Footer -->
       <footer id="footer">
         <div class="inner">
-          <h2>Follow me or contact me!</h2>
+          <h2>Follow me!</h2>
           <ul class="icons">
             <li>
               <a
