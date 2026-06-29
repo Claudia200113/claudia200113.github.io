@@ -3518,6 +3518,7 @@ p {
 }
 
 .video-effect {
+  width: 80%;
   display: block;
   margin: 0 em;
 }
