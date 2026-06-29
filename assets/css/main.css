@@ -3518,11 +3518,11 @@ p {
 }
 
 .video-effect {
-  width: 900px;
+  width: 1200px;
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 .tiles {
