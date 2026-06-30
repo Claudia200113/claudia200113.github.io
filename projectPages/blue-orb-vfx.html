@@ -39,6 +39,7 @@
       </header>
 
       <!-- Menu -->
+      <!-- CHANGE -->
       <nav id="menu">
         <h2>Menu</h2>
         <ul>
@@ -53,38 +54,79 @@
       <!-- Main -->
       <div id="main">
         <div class="inner">
-          <h1>Blue Orb VFX</h1>
-          <span class="image main"
-            ><img src="../images/pic13.jpg" alt=""
-          /></span>
+          <h1 style="color: rgb(16, 119, 253)">Turrent Attack Orb</h1>
+          <video class="video-effect" controls>
+            <source
+              src="../media/staticSword/SwordRenderVideo.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+
+          <p>Environmental effect for static sword</p>
+
           <h2>Overview</h2>
+
           <p>
-            I created a tool focused on helping populate environments
-            procedurally inside Unreal. This tool lets you generate candles in
-            either a linear or circular arrangement, with support for perfect
-            circles or a custom offset to create more organic layouts. Each
-            candle can also spawn a Niagara system, giving it a realistic look.
+            For this project, I wanted to combine the visual style of Ghostwire:
+            Tokyo's Wind Weaving ability with the gameplay of one of the
+            Warlock's abilities from Destiny, one of my favorite games.
           </p>
-          <h2>Objective</h2>
+
           <p>
-            I wanted to create a tool to populate scenes easily. I designed the
-            tool to be modular, so both the mesh and Niagara used can be easily
-            changed on the tool detail by the user.
+            The result was a turret ability where the player casts an orb which
+            detects enemies within range and attacks them. My goal was not only
+            to design and create the effect, but to program it in a way that was
+            easy for designes to change and iterate on it.
           </p>
-          <h2>Features</h2>
+
           <p>
-            I wanted to create a tool to populate scenes easily. I designed the
-            tool to be modular, so both the mesh and Niagara used can be easily
-            changed on the tool detail by the user.
+            To achieve this, I exposed certain Niagara User Parameters so values
+            such as the turret's attack duration could be adjusted without
+            modifying the system itself. I also programmed the complete turret
+            behavior using Blueprints, including enemy detection, targeting, and
+            attack logic in a way that it was easy to be changed and adapted to
+            each project.
           </p>
-          <h2>Media</h2>
+
+          <h2>Challanges</h2>
+
+          <p>
+            One of the biggest challenges of this project was programming the
+            turret's behavior. I wanted it to detect nearby enemies, rotate
+            towards them, and trigger timed attacks through events. This with
+            the visuals properly working along the programming.
+          </p>
+
+          <p>
+            Another important goal was making the ability as designer-friendly
+            as possible. Rather than requiring changes in both the Blueprint and
+            the Niagara System, I connected the values so designers only need to
+            modify the variables inside of the blueprint. This makes balancing
+            the ability much faster and allows for quick iteration.
+          </p>
+
+          <h2>Additional Notes</h2>
+
+          <p>
+            Along the orb behaviour I programmed the character animations,
+            sequencers, and set the render for the final cinematics used for the
+            showcase.
+          </p>
+
+          <span class="image main"
+            ><img
+              class="project-image"
+              src="../media/staticSword/Thumb_Sword.jpg"
+              alt=""
+          /></span>
         </div>
       </div>
 
       <!-- Footer -->
       <footer id="footer">
         <div class="inner">
-          <h2>Follow me or contact me!</h2>
+          <h2>Follow me!</h2>
           <ul class="icons">
             <li>
               <a
