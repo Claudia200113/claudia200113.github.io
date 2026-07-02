@@ -53,7 +53,7 @@
       <!-- Main -->
       <div id="main">
         <div class="inner">
-          <h1 style="color: rgb(223, 48, 24)">Grenade VFX</h1>
+          <h1 style="color: rgb(221, 147, 255)">Grenade VFX</h1>
           <video class="video-effect" controls>
             <source src="../media/grenade/Grenade.mp4" type="video/mp4" />
             Your browser does not support the video tag.
@@ -67,34 +67,46 @@
           <h2>Overview</h2>
 
           <p>
-            This time I decided to create a tool focused on helping populate
-            environments procedurally inside Unreal. This tool lets you generate
-            candles in either a linear or circular arrangement, with support for
-            perfect circles or a custom offset to create more organic layouts.
-            Each candle can also spawn a Niagara flame, giving it a realistic
-            look. Designed to be modular, flexible, and easy to use. Note: This
-            time I used lit candles as an example — but the tool can be used
-            with any mesh and Niagara system.
+            As part of an advanced Niagara course, I learned how to use Mesh
+            Instances inside Unreal Blueprints. I realized how useful this
+            feature is, as it allows artists to dress scenes efficiently while
+            reducing the number of meshes that need to be created.
           </p>
 
           <p>
-            After analyzing the original effect, I noticed that the anticipation
-            phase can sometimes be easy to miss, causing enemy players to
-            overlook the ultimate being casted and causing the gameplay feel
-            unfair. To improve this, I included new assets such as lighting
-            sprites, rubble meshes, and smoke particles to give the effect more
-            visual presence and weight. Additionally, adding these elements help
-            make the ultimate feel more powerful.
+            I decided to apply this and create a tool that artists can use to
+            make scene dressing easier and more optimized. At the same time, I
+            wanted to incorporate my past knowledge in Niagara so the tool could
+            be used in a variety of scenarios instead of simply placing meshes.
           </p>
 
-          <h2>Additional Notes</h2>
+          <p>
+            The tool allows the user to select any mesh and arrange it either in
+            a linear or circular layout using mesh instancing. A Niagara System
+            can also be assigned to spawn alongside each mesh, making it useful
+            for props that require both. For this showcase, I used candles that
+            can be displayed in either a lit or unlit state, but the tool can
+            easily be adapted to other meshes.
+          </p>
+
+          <h2>Features</h2>
 
           <p>
-            For the render of the effect, I selected an environment with an art
-            style similar to Overwatch. This allowed me to better showcase how
-            the effect would integrate into an in-game setting and demonstrate
-            the visual design decisions behind the textures, materials, meshes,
-            and particle systems used throughout the project.
+            The tool was designed to be modular, so I added variables to set the
+            meshes and the Niagara System that can be easily change thorugh the
+            Blueprint settings.
+          </p>
+
+          <p>
+            Users can choose between a linear or circular arrangement. When
+            using the circular layout, additional settings become available,
+            such as generating a perfect circle or adding a custom offset to
+            create a more natural and organic distribution.
+          </p>
+
+          <p>
+            My goal was to build a reusable tool that speeds up scene dressing
+            while remaining flexible to be used in multiple projects.
           </p>
 
           <!--<h2>Media</h2>-->
