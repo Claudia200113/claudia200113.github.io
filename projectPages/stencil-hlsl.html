@@ -1,0 +1,197 @@
+<!doctype html>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Claudia Rodriguez</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="../assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="inner">
+          <!-- Logo -->
+          <a href="../index.html" class="logo">
+            <span class="symbol"><img src="../images/logo.svg" alt="" /></span
+            ><span class="title">Claudia Rodriguez</span>
+          </a>
+
+          <!-- Nav -->
+          <nav>
+            <ul>
+              <li><a href="#menu">Menu</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Menu -->
+      <nav id="menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="mainPages/unreal-vfx.html">Unreal VFX</a></li>
+          <li><a href="mainPages/unreal-tool.html">Unreal Tools</a></li>
+          <li><a href="mainPages/programming.html">Programming</a></li>
+          <li><a href="mainPages/other.html">Others</a></li>
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <h1 style="color: rgb(77, 35, 90)">Stencil Buffer Shader</h1>
+          <video class="video-effect" controls>
+            <source
+              src="../media/stencilHLSL/StencilShowcase.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+
+          <p>Stencil buffer shader programmed with HLSL in Unity.</p>
+
+          <h2>Overview</h2>
+
+          <p>
+            Overview For this project, I wanted to put my HLSL skills into
+            practice by creating a stencil shader in Unity. Since I also wanted
+            to challenge myself and make the shader a bit more versatile, I
+            added customizable stencil options directly to the material so it
+            could be adapted to different use cases. Although the shader itself
+            is relatively simple, it was a fun project that helped me become
+            more comfortable writing HLSL code and better understand how stencil
+            buffers work within Unity’s rendering pipeline. To make the project
+            feel more complete, I also created a short mock gameplay video
+            showcasing how the shader could be used in an actual game. This was
+            a great opportunity to practice not only shader programming, but
+            also presenting a technical feature in a way that highlights its
+            practical use.
+          </p>
+
+          <p>
+            After an analysis, I noticed that the ultimate's anticipation was
+            mainly communicated through an animation triggered by Mei rather
+            than through the effect itself. Considering this, I decided to add a
+            more visible cue so that players who are not able to see the
+            animation, still have a clear cue of the ultimate being cast.
+          </p>
+
+          <p>
+            Another addition I implemented was a distortion effect on the dome,
+            making it appear as a contained storm to players outside of it.
+            Furthermore, the mist inside the dome is interactive, meaning that
+            it fades according to the player's distace. If close enough, the
+            mist will not render so players inside the dome can still have some
+            visibility.
+          </p>
+
+          <p>
+            Finally, to make the ultimate fade out smoothly and still feeling
+            powerful, I added a small particle burst at the end.
+          </p>
+
+          <h2>Additional Notes</h2>
+
+          <p>
+            For the render of the effect, I selected an environment with an art
+            style similar to Overwatch. This allowed me to better showcase how
+            the effect would integrate into an in-game setting and demonstrate
+            the visual design decisions behind the textures, materials, meshes,
+            and particle systems used throughout the project.
+          </p>
+
+          <span class="image main">
+            <video controls width="100%">
+              <source
+                src="../media/stencilHLSL/StencilShowcase2.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </span>
+
+          <span class="image main">
+            <video controls width="100%">
+              <source
+                src="../media/stencilHLSL/StencilEditor.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </span>
+
+          <span class="image main"
+            ><img
+              class="project-image"
+              src="../media/stencilHLSL/Thumb_Stencil.jpg"
+              alt=""
+          /></span>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="inner">
+          <h2>Follow me!</h2>
+          <ul class="icons">
+            <li>
+              <a
+                href="https://www.artstation.com/claudia_rodriguez"
+                class="icon brands style2 fa-artstation"
+              >
+                <span class="label">ArtStation</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Claudia200113?tab=repositories"
+                class="icon brands style2 fa-github"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/claudia-rodriguez-meza1/"
+                class="icon brands style2 fa-linkedin-in"
+              >
+                <span class="label">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:claudiardz.contact@gmail.com"
+                class="icon solid style2 fa-envelope"
+                ><span class="label">Email</span></a
+              >
+            </li>
+          </ul>
+          <ul class="copyright">
+            <!--<li>&copy; Untitled. All rights reserved</li>-->
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
