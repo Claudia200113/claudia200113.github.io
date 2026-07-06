@@ -53,42 +53,57 @@
       <!-- Main -->
       <div id="main">
         <div class="inner">
-          <h1>Splash Material</h1>
-          <span class="image main"
-            ><img src="../images/pic13.jpg" alt=""
-          /></span>
+          <h1 style="color: rgb(36, 186, 255)">Spline Tool</h1>
+
+          <video class="video-effect" controls>
+            <source
+              src="../media/splineTool/SplineToolShowcase.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+
+          <p>Spline tool for scene dressing in Unreal.</p>
+
           <h2>Overview</h2>
+
           <p>
-            As I continue learning more about materials, I decided to create a
-            splash material that offsets vertices based on their distance to the
-            floor. I designed it to resemble a water sphere, with wave-like
-            movement along the edges. The goal was to create a stylized water
-            material that can be used in a map without the need for animations,
-            using only World Position Offset and vertex manipulation. Parameters
-            such as color, fresnel intensity, splash distance, surface distance,
-            offset, and wave intensity can be easily adjusted in the material
-            instance.
+            This time I decided to build a tool that makes scene dressing
+            easier, faster, and more flexible. The tool I designed and
+            programmed allows users to place meshes along a spline that can be
+            edited directly in the scene. It includes a variety of customizable
+            parameters, such as mesh selection, orientation, collision profiles,
+            spacing between instances, and even random mesh selection.
           </p>
-          <h2>Objective</h2>
+
           <p>
-            I wanted to create a tool to populate scenes easily. I designed the
-            tool to be modular, so both the mesh and Niagara used can be easily
-            changed on the tool detail by the user.
+            Since the tool is spline-based, it also supports curves and slopes,
+            making it highly adaptable to multiple contexts and uses. To make
+            the tool more complete, collision settings are handled through an
+            enumerator, reducing the chance of invalid configurations and making
+            it easier to use.
           </p>
-          <h2>Features</h2>
+
           <p>
-            I wanted to create a tool to populate scenes easily. I designed the
-            tool to be modular, so both the mesh and Niagara used can be easily
-            changed on the tool detail by the user.
+            My goal was to create a modular workflow that speeds up scene
+            dressing while remaining flexible enough to fit different projects.
+            The tool is great for placing assets such as roads, fences, pipes,
+            cables, railings, and many others.
           </p>
-          <h2>Media</h2>
+
+          <span class="image main"
+            ><img
+              class="project-image"
+              src="../media/splashMaterial/Thumb_Splash.jpg"
+              alt=""
+          /></span>
         </div>
       </div>
 
       <!-- Footer -->
       <footer id="footer">
         <div class="inner">
-          <h2>Follow me or contact me!</h2>
+          <h2>Follow me!</h2>
           <ul class="icons">
             <li>
               <a
