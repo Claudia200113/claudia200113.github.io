@@ -3479,11 +3479,6 @@ body.is-menu-visible #menu .close {
 }
 
 /* Personalized classes */
-.project-image {
-  width: 70%;
-  margin: 0;
-}
-
 p {
   font-weight: 700;
 }
@@ -3538,4 +3533,11 @@ p {
 .image.main {
   display: block;
   margin: 0 auto 3em;
+  text-align: center;
+}
+
+.project-image {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
 }
