@@ -3496,7 +3496,7 @@ p {
 }
 
 .image-column img {
-  width: 49%;
+  width: 35%;
   margin-bottom: 3em;
   height: auto;
 }
@@ -3525,7 +3525,7 @@ p {
 }
 
 .thumb {
-  max-width: 60%;
+  max-width: 40%;
   /*max-width: 300px;*/
   display: block;
   margin: 0 auto;
