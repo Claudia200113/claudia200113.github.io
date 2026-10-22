@@ -2464,12 +2464,6 @@ input[type="radio"] + label:before {
   width: 100%;
 }
 
-.image.main {
-  display: block;
-  margin: 0 0 3em 0;
-  /*width: 100%;*/
-}
-
 .image.main img {
   width: 100%;
 }
@@ -3487,7 +3481,7 @@ body.is-menu-visible #menu .close {
 /* Personalized classes */
 .project-image {
   display: block;
-  width: 80%;
+  width: 70%;
   /*max-width: 500px;*/
   margin: 0;
 }
@@ -3520,7 +3514,7 @@ p {
 
 .video-effect {
   width: 80%;
-  max-width: 500px;
+  /*max-width: 500px;*/
   display: block;
   margin: 0 auto;
   margin-bottom: 1.5em;
@@ -3531,8 +3525,14 @@ p {
 }
 
 .thumb {
-  max-width: 50%;
-  max-width: 300px;
+  max-width: 60%;
+  /*max-width: 300px;*/
   display: block;
   margin: 0 auto;
+}
+
+.image.main {
+  display: block;
+  margin: 0 0 3em 0;
+  /*width: 100%;*/
 }
