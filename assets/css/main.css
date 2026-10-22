@@ -2467,7 +2467,7 @@ input[type="radio"] + label:before {
 .image.main {
   display: block;
   margin: 0 0 3em 0;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 .image.main img {
@@ -3531,6 +3531,8 @@ p {
 }
 
 .thumb {
-  max-width: 40%;
+  max-width: 50%;
   max-width: 300px;
+  display: block;
+  margin: 0;
 }
