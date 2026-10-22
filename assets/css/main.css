@@ -3490,14 +3490,20 @@ p {
 
 .image-column {
   display: flex;
+  justify-content: center;
   gap: 0.5rem;
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .image-column img {
-  width: 49%;
+  flex: 1;
+  min-width: 0;
   height: auto;
   display: block;
-  margin: 0 auto 2em;
+  object-fit: contain;
+  margin: 0 0 2em;
 }
 
 .name {
