@@ -3481,7 +3481,7 @@ body.is-menu-visible #menu .close {
 /* Personalized classes */
 .project-image {
   display: block;
-  width: 70%;
+  width: 50%;
   /*max-width: 500px;*/
   margin: 0;
 }
@@ -3513,7 +3513,7 @@ p {
 }
 
 .video-effect {
-  width: 80%;
+  width: 70%;
   /*max-width: 500px;*/
   display: block;
   margin: 0 auto;
