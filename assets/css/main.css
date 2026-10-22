@@ -3480,7 +3480,7 @@ body.is-menu-visible #menu .close {
 
 /* Personalized classes */
 p {
-  font-weight: 540;
+  font-weight: 500;
 }
 
 .image-column {
@@ -3517,8 +3517,7 @@ p {
 }
 
 .thumb {
-  width: 35%;
-  max-width: 300px;
+  width: 40%;
   display: block;
   margin: 0 auto 2em;
 }
@@ -3531,7 +3530,7 @@ p {
 
 .project-image {
   display: block;
-  width: 70%;
+  width: 50%;
   height: auto;
   margin: 0 auto;
 }
