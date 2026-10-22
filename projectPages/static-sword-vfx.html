@@ -63,31 +63,55 @@
             Your browser does not support the video tag.
           </video>
 
-          <p>Environmental effect for static sword</p>
+          <p>Environmental effect for static sword.</p>
 
           <h2>Overview</h2>
 
           <p>
             While looking at different real-time VFX, I noticed a lot of
             environmental effects have particles spawning directly from meshes.
-            Since I had never done anything alike, I thought it would be a fun
-            challenge to create an effect for a sword where flames were spawned
-            around the mesh instead of appearing randomly.
+            Since I had never done anything like this, I thought it would be a
+            good challenge to create an effect for a sword where flames were
+            spawned around the mesh instead of appearing randomly.
+          </p>
+
+          <h2>Techincal Features</h2>
+
+          <p>
+            To achieve particles being spawned directly on the surface of a
+            mesh, I had to learn how to use Niagara Scratch Pads. Since I had
+            very little experience with them, a big part of the project was
+            researching how they worked, watching tutorials, and playing around
+            until I could spawn the flames as I wanted.
           </p>
 
           <p>
-            To achieve this, I had to learn how to use Niagara Scratch Pads.
-            Since I had very little experience with them, a big part of the
-            project was researching how they worked, watching tutorials, and
-            playing around until achieving to spawn the flames as wanted.
-          </p>
-
-          <p>
-            I ended up creating a Scratch Pad that calculates the sword's
+            After doing extensive research and understanding how they work, I
+            ended up creating a Scratch Pad that calculates the sword's
             triangles, assigns them an index, and uses that information to
             randomly select some of the indices and spawn particles at their
             location. Another important factor was limiting the number of flames
-            spawned, to keep the effect optimized.
+            spawned, so the effect could remain optimized.
+          </p>
+
+          <h2>Learnings</h2>
+
+          <p>
+            Doing this project allowed me to better understand Scratch Pad
+            pipeline and implementation. I can see how modular, adaptable, and
+            powerful they can be. Being able to implement custom math and
+            control particles around the values allows the effects to be highly
+            adaptable to each game.
+          </p>
+
+          <p>
+            Another aspect I was able to see while working on this effect was
+            the importance of keeping the Scratch Pads optimized. Having the
+            liberty to access math and do multiple calculations is heavy in
+            terms of resource management for the project. It is not only
+            important to achieve visually impressive results, but keeping in
+            mind effects must be optimized while achieving the intended result
+            in terms of gameplay, narrative, etc.
           </p>
 
           <<img
