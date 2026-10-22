@@ -3487,9 +3487,9 @@ body.is-menu-visible #menu .close {
 /* Personalized classes */
 .project-image {
   display: block;
-  width: 100%;
+  width: 80%;
   /*max-width: 500px;*/
-  margin: 0 auto;
+  margin: 0;
 }
 
 p {
@@ -3528,4 +3528,9 @@ p {
 
 .tiles {
   margin-top: 1em;
+}
+
+.thumb {
+  max-width: 40%;
+  max-width: 300px;
 }
