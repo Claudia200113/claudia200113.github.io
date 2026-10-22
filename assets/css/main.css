@@ -3486,6 +3486,7 @@ p {
 .image-column {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   gap: 0.5rem;
   width: 90%;
   margin: 0 auto;
@@ -3494,11 +3495,12 @@ p {
 
 .image-column img {
   flex: 1;
+  width: 0;
   min-width: 0;
   height: auto;
   display: block;
   object-fit: contain;
-  margin: 0 0 2em;
+  margin: 0;
 }
 
 .name {
