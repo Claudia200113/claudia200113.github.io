@@ -3487,7 +3487,7 @@ body.is-menu-visible #menu .close {
 .project-image {
   display: block;
   width: 100%;
-  max-width: 500px;
+  /*max-width: 500px;*/
   margin: 0 auto;
 }
 
