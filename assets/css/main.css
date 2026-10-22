@@ -3487,7 +3487,7 @@ p {
   display: flex;
   justify-content: center;
   gap: 0.5rem;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -3524,7 +3524,7 @@ p {
 }
 
 .thumb {
-  max-width: 40%;
+  max-width: 30%;
   /*max-width: 300px;*/
   display: block;
   margin: 0 auto 2em;
@@ -3539,5 +3539,6 @@ p {
 .project-image {
   display: block;
   width: 70%;
+  height: auto;
   margin: 0 auto;
 }
