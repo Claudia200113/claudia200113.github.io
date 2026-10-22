@@ -3521,7 +3521,6 @@ p {
 .video-effect {
   width: 80%;
   max-width: 500px;
-
   display: block;
   margin: 0 auto;
   margin-bottom: 1.5em;
@@ -3535,5 +3534,5 @@ p {
   max-width: 50%;
   max-width: 300px;
   display: block;
-  margin: 0;
+  margin: 0 auto;
 }
