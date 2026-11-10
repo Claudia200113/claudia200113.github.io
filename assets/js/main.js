@@ -142,21 +142,21 @@
     });
 
   // Lightbox.
-  function openLightbox(image) {
+  window.openLightbox = function (image) {
     const lightbox = document.getElementById("lightbox");
     const lightboxImg = document.getElementById("lightbox-img");
 
     lightboxImg.src = image.src;
     lightbox.style.display = "flex";
-  }
+  };
 
-  function closeLightbox() {
+  window.closeLightbox = function () {
     document.getElementById("lightbox").style.display = "none";
-  }
+  };
 
   document.addEventListener("keydown", function (event) {
     if (event.key === "Escape") {
-      closeLightbox();
+      window.closeLightbox();
     }
   });
 })(jQuery);

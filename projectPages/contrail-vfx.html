@@ -159,7 +159,12 @@
 
       //Zoom Images
       <div id="lightbox" onclick="closeLightbox()">
-        <img id="lightbox-img" src="" alt="" />
+        <img
+          id="lightbox-img"
+          src=""
+          alt=""
+          onclick="event.stopPropagation()"
+        />
       </div>
 
       <!-- Footer -->
