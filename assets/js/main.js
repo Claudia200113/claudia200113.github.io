@@ -141,13 +141,14 @@
       if (event.keyCode == 27) $menu._hide();
     });
 
-  // Lightbox with zoom.
+  // Lightbox with interactive zoom.
   window.openLightbox = function (image) {
     const lightbox = document.getElementById("lightbox");
     const lightboxImg = document.getElementById("lightbox-img");
 
     lightboxImg.src = image.src;
     lightboxImg.classList.remove("zoomed");
+    lightboxImg.style.transformOrigin = "center center";
 
     lightbox.style.display = "flex";
   };
@@ -156,16 +157,26 @@
     document.getElementById("lightbox").style.display = "none";
   };
 
-  document
-    .getElementById("lightbox-img")
-    .addEventListener("click", function (event) {
-      event.stopPropagation();
-      this.classList.toggle("zoomed");
-    });
+  const lightboxImg = document.getElementById("lightbox-img");
 
-  document.addEventListener("keydown", function (event) {
-    if (event.key === "Escape") {
-      window.closeLightbox();
+  lightboxImg.addEventListener("click", function (event) {
+    event.stopPropagation();
+
+    this.classList.toggle("zoomed");
+
+    if (!this.classList.contains("zoomed")) {
+      this.style.transformOrigin = "center center";
     }
+  });
+
+  lightboxImg.addEventListener("mousemove", function (event) {
+    if (!this.classList.contains("zoomed")) return;
+
+    const rect = this.getBoundingClientRect();
+
+    const x = ((event.clientX - rect.left) / rect.width) * 100;
+    const y = ((event.clientY - rect.top) / rect.height) * 100;
+
+    this.style.transformOrigin = `${x}% ${y}%`;
   });
 })(jQuery);
