@@ -112,8 +112,16 @@
           </p>
 
           <div class="image-column">
-            <img src="../media/masterDotMaterial/MaterialGraph.jpg" alt="" />
-            <img src="../media/masterDotMaterial/MaterialGraphGen.jpg" alt="" />
+            <img
+              src="../media/masterDotMaterial/MaterialGraph.jpg"
+              alt=""
+              onclick="openLightbox(this)"
+            />
+            <img
+              src="../media/masterDotMaterial/MaterialGraphGen.jpg"
+              alt=""
+              onclick="openLightbox(this)"
+            />
           </div>
 
           <p>
@@ -132,6 +140,7 @@
               class="project-image"
               src="../media/masterDotMaterial/MasterMat1.png"
               alt=""
+              onclick="openLightbox(this)"
           /></span>
 
           <span class="image main"
@@ -139,6 +148,7 @@
               class="project-image"
               src="../media/masterDotMaterial/MasterMat2.png"
               alt=""
+              onclick="openLightbox(this)"
           /></span>
 
           <span class="image main"
@@ -146,6 +156,7 @@
               class="project-image"
               src="../media/masterDotMaterial/MasterMat3.png"
               alt=""
+              onclick="openLightbox(this)"
           /></span>
 
           <span class="image main"
@@ -153,6 +164,7 @@
               class="project-image"
               src="../media/masterDotMaterial/MasterMat4.png"
               alt=""
+              onclick="openLightbox(this)"
           /></span>
 
           <img
@@ -161,6 +173,16 @@
             alt=""
           />
         </div>
+      </div>
+
+      <!-- Zoom Images -->
+      <div id="lightbox" onclick="closeLightbox()">
+        <img
+          id="lightbox-img"
+          src=""
+          alt=""
+          onclick="event.stopPropagation()"
+        />
       </div>
 
       <!-- Footer -->

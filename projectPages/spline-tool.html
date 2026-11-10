@@ -111,6 +111,7 @@
               class="project-image"
               src="../media/splineTool/SplineNodes.png"
               alt=""
+              onclick="openLightbox(this)"
           /></span>
 
           <span class="image main"
@@ -119,6 +120,7 @@
               src="../media/splineTool/SplineToolDetailsMenu.jpg"
               alt=""
               style="width: 65%; height: auto"
+              onclick="openLightbox(this)"
           /></span>
 
           <h2>Learnings</h2>
@@ -145,6 +147,16 @@
             alt=""
           />
         </div>
+      </div>
+
+      <!-- Zoom Images -->
+      <div id="lightbox" onclick="closeLightbox()">
+        <img
+          id="lightbox-img"
+          src=""
+          alt=""
+          onclick="event.stopPropagation()"
+        />
       </div>
 
       <!-- Footer -->

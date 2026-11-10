@@ -90,6 +90,7 @@
               class="project-image"
               src="../media/waterShader/WaterShaderNode1.png"
               alt=""
+              onclick="openLightbox(this)"
           /></span>
 
           <span class="image main"
@@ -97,6 +98,7 @@
               class="project-image"
               src="../media/waterShader/WaterShaderNode2.png"
               alt=""
+              onclick="openLightbox(this)"
           /></span>
 
           <span class="image main"
@@ -104,6 +106,7 @@
               class="project-image"
               src="../media/waterShader/WaterShaderNode3.png"
               alt=""
+              onclick="openLightbox(this)"
           /></span>
 
           <span class="image main"
@@ -111,6 +114,7 @@
               class="project-image"
               src="../media/waterShader/WaterShaderNode4.png"
               alt=""
+              onclick="openLightbox(this)"
           /></span>
 
           <p>
@@ -127,6 +131,7 @@
               class="project-image"
               src="../media/waterShader/WaterShaderNodeGen.png"
               alt=""
+              onclick="openLightbox(this)"
           /></span>
 
           <h2>Learnings</h2>
@@ -149,15 +154,13 @@
             effects and achieve more impressive, complex results.
           </p>
 
-
-            <video class="video-effect" controls>
-              <source
-                src="../media/waterShader/ShowcaseInstance.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
-  
+          <video class="video-effect" controls>
+            <source
+              src="../media/waterShader/ShowcaseInstance.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
 
           <img
             class="thumb"
@@ -165,6 +168,16 @@
             alt=""
           />
         </div>
+      </div>
+
+      <!-- Zoom Images -->
+      <div id="lightbox" onclick="closeLightbox()">
+        <img
+          id="lightbox-img"
+          src=""
+          alt=""
+          onclick="event.stopPropagation()"
+        />
       </div>
 
       <!-- Footer -->

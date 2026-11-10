@@ -3565,5 +3565,6 @@ p {
 .project-image {
   display: block;
   height: auto;
+  cursor: zoom-in;
   margin: 0 auto;
 }

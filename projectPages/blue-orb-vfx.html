@@ -101,6 +101,7 @@
               class="project-image"
               src="../media/blueOrb/BlueOrb_TurretNodes.png"
               alt=""
+              onclick="openLightbox(this)"
           /></span>
 
           <p>
@@ -133,12 +134,30 @@
           </video>
 
           <div class="image-column">
-            <img src="../media/blueOrb/Still1.jpg" alt="" />
-            <img src="../media/blueOrb/Still2.jpg" alt="" />
+            <img
+              src="../media/blueOrb/Still1.jpg"
+              alt=""
+              onclick="openLightbox(this)"
+            />
+            <img
+              src="../media/blueOrb/Still2.jpg"
+              alt=""
+              onclick="openLightbox(this)"
+            />
           </div>
 
           <img class="thumb" src="../media/blueOrb/Thumb_BlueOrb.jpg" alt="" />
         </div>
+      </div>
+
+      <!-- Zoom Images -->
+      <div id="lightbox" onclick="closeLightbox()">
+        <img
+          id="lightbox-img"
+          src=""
+          alt=""
+          onclick="event.stopPropagation()"
+        />
       </div>
 
       <!-- Footer -->

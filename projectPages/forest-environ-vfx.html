@@ -82,8 +82,16 @@
           </p>
 
           <div class="image-column">
-            <img src="../media/forest/stillForest.jpg" alt="" />
-            <img src="../media/forest/stillForest2.jpg" alt="" />
+            <img
+              src="../media/forest/stillForest.jpg"
+              alt=""
+              onclick="openLightbox(this)"
+            />
+            <img
+              src="../media/forest/stillForest2.jpg"
+              alt=""
+              onclick="openLightbox(this)"
+            />
           </div>
 
           <span class="image main"
@@ -95,6 +103,16 @@
 
           <img class="thumb" src="../media/forest/Thumb_Forest.jpg" alt="" />
         </div>
+      </div>
+
+      <!-- Zoom Images -->
+      <div id="lightbox" onclick="closeLightbox()">
+        <img
+          id="lightbox-img"
+          src=""
+          alt=""
+          onclick="event.stopPropagation()"
+        />
       </div>
 
       <!-- Footer -->
