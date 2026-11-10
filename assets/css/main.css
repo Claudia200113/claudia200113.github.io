@@ -3492,6 +3492,10 @@ p {
   width: 49%;
   margin-bottom: 3em;
   height: auto;
+  cursor: zoom-in;
+  pointer-events: auto;
+  position: relative;
+  z-index: 1;
 }
 
 #lightbox {
@@ -3511,7 +3515,10 @@ p {
 #lightbox img {
   max-width: 90%;
   max-height: 90%;
+  width: auto;
+  height: auto;
   object-fit: contain;
+  cursor: default;
 }
 
 .name {
