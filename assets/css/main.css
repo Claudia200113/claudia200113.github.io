@@ -3521,7 +3521,7 @@ p {
 #lightbox img.zoomed {
   max-width: none;
   max-height: none;
-  width: auto;
+  width: 85%;
   height: auto;
   transform: scale(2);
   cursor: zoom-out;
