@@ -141,18 +141,27 @@
       if (event.keyCode == 27) $menu._hide();
     });
 
-  // Lightbox.
+  // Lightbox with zoom.
   window.openLightbox = function (image) {
     const lightbox = document.getElementById("lightbox");
     const lightboxImg = document.getElementById("lightbox-img");
 
     lightboxImg.src = image.src;
+    lightboxImg.classList.remove("zoomed");
+
     lightbox.style.display = "flex";
   };
 
   window.closeLightbox = function () {
     document.getElementById("lightbox").style.display = "none";
   };
+
+  document
+    .getElementById("lightbox-img")
+    .addEventListener("click", function (event) {
+      event.stopPropagation();
+      this.classList.toggle("zoomed");
+    });
 
   document.addEventListener("keydown", function (event) {
     if (event.key === "Escape") {

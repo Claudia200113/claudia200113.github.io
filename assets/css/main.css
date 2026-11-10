@@ -3515,10 +3515,14 @@ p {
 #lightbox img {
   max-width: 90%;
   max-height: 90%;
-  width: auto;
-  height: auto;
   object-fit: contain;
-  cursor: default;
+  cursor: zoom-in;
+  transition: transform 0.25s ease;
+}
+
+#lightbox img.zoomed {
+  transform: scale(2);
+  cursor: zoom-out;
 }
 
 .name {
