@@ -179,4 +179,10 @@
 
     this.style.transformOrigin = `${x}% ${y}%`;
   });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+      window.closeLightbox();
+    }
+  });
 })(jQuery);
